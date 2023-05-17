@@ -1,0 +1,18 @@
+.not-found-container {
+    color: white;
+    margin: 1rem auto;
+    font-size: 2rem;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.not-found-img {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.not-found-img img {
+    max-width: 300px;
+}
+

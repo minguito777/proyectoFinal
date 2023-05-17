@@ -1,0 +1,17 @@
+.Footer-container{
+    background: linear-gradient(150deg , #93b3c2c1  , #4d5d34be);
+    margin-top: 10rem;
+    min-height: 20vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.p-1{
+    color: black;
+}
+.p-s{
+    color: violet;
+}

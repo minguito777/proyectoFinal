@@ -1,0 +1,57 @@
+.nav {
+    background: linear-gradient(315deg, #3acb12c1, #ce5b09be);
+    position: relative;
+    margin: 10px 30px;
+    text-align: center;
+}
+
+.nav-container {
+    background-color: transparent;
+}
+
+.menu-icon {
+    color: white;
+}
+
+.menu-icon:active {
+    transform: translateY(2px);
+}
+.brand-container a{
+    color: white;
+}
+.brand-container img {
+    max-height: 50px;
+}
+
+.nav-link a {
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.drop-Container {
+    background-color: transparent !important;
+
+}
+
+.drop-item {
+    background-color: rgb(19, 16, 16) !important;
+    font-weight: 500 !important;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link a:hover {
+    color: #ff0059be !important;
+}
+
+.nav-link a:active {
+    transform: translateY(2px) !important;
+}
+
+.nav-ico-actions:active {
+    transform: translateY(2px) !important;
+}

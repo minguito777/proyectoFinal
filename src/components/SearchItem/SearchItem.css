@@ -1,0 +1,44 @@
+
+.searcItem{
+    width: 40% !important;
+    margin-top: 8rem;
+}
+.form-control{
+    border-radius: 20px 20px 20px  20px !important;
+}
+
+.form-control:focus {
+    border-color: #ccc !important; /* default B5 color or set your own color*/
+    outline: #ccc !important;
+    box-shadow: none !important;
+    color: #8f8f8f !important;
+  } 
+
+.search-information{
+    background-color: #3e3e3e4c ;
+    margin-top: 1rem;
+    justify-content: center;
+    align-self: center;
+    color: #5b5b5b;
+    padding: 2rem;
+
+}
+.text-searched{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.item-search-container{
+    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+@media  ( max-width: 599px ){
+    .searcItem{
+        width: 90% !important;
+    }
+}

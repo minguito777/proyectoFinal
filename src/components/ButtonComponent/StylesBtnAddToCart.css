@@ -1,0 +1,16 @@
+.btn-card{
+    margin: 5px 5px;
+    border: 0;
+    color: black !important;
+    padding: 8px !important;
+    margin: 1rem;
+}
+.btn-card:hover{
+    color: white !important;
+    background-color: #03a8f4c1  !important;
+}
+
+.btn-card:active{
+    transform:translateY(2px);
+
+}
