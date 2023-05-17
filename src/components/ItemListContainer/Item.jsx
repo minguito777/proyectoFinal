@@ -51,7 +51,7 @@ const Item = ({ Info_for_item }) => {
               {Info_for_item.stock <= 2 && (
                 <h4
                   style={{
-                    color: "white",
+                    color: "red",
                     fontWeight: "700",
                     paddingTop: "320px",
                   }}
@@ -73,7 +73,7 @@ const Item = ({ Info_for_item }) => {
               <div className="col ">
                 <h4>
                   <span className="badge ms-1 mt-2 text-end d-flex">
-                    {Info_for_item.console}
+                    {/* {Info_for_item.console} */}
                   </span>
                 </h4>
               </div>
@@ -113,7 +113,7 @@ const Item = ({ Info_for_item }) => {
 
             <ButtonComponent
               handlerOnclick={() => handlerAddToCart(Info_for_item)}
-              text={"Add to cart"}
+              text={"Añadir al carrito"}
               onDisabler={stock === 0}
             />
 
@@ -122,7 +122,7 @@ const Item = ({ Info_for_item }) => {
             <Link to={`/item/${Info_for_item.id}`}>
               <ButtonComponent
                 onClick={() => getProduct(Info_for_item.id)}
-                text={"View more"}
+                text={"Detalles"}
               />
             </Link>
           </MDBCardBody>
